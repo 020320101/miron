@@ -1,0 +1,552 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration:none ;
+color: rgb(95, 92, 92);}
+.tema2{
+  margin-right: 50px;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+nav{
+
+    width: 100%;
+}
+
+.excursion{
+    padding: 10px 0 0 7px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid rgb(216, 15, 15);
+    border-radius: 10px;
+    float: left;
+    margin-left: 140px;
+}
+
+.master{
+    padding: 10px 0 0 7px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid rgb(216, 15, 15);
+    border-radius: 10px;
+    float: left;
+    margin-left: 140px;
+}
+
+.tema{
+    padding: 10px 0 0 7px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background: #797575;
+    float: left;
+    margin-left: 140px;
+}
+
+.tg{
+    margin: 20px 0 0 180px;
+    float: left;
+}
+
+.insta{
+  margin: 20px 0 0 15px;
+    float: left;
+}
+.tt{
+  margin: 20px 0 0 15px;
+    float: left;
+}
+
+.one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    margin-left: 20px;
+   
+}
+
+.one img{
+    margin-left: 25px;
+}
+
+.one img:hover{
+    scale: 1.2;
+    transition: 1s;
+}
+
+.one:hover{
+    animation-play-state: paused;
+}
+
+
+
+.brend {
+  color: rgb(105, 100, 100);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bren{
+  color: rgb(105, 100, 100);
+  margin-left: 510px;
+}
+
+.brendi{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tovar{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.first{
+   
+    overflow: hidden;
+}
+
+.first img{
+    transition: 1s;
+}
+
+.weightType{
+  width: 50px;
+  height: 50px;
+}
+
+.first img:hover{
+  transform: scale(1.1);}
+
+  .b{
+    width: 20px;
+    height: 20px;
+  }
+
+  .brendi a{
+   
+    overflow: hidden;
+}
+
+.brendi a{
+    transition: 0.5s;
+}
+
+.brendi a:hover{
+  transform: scale(1.1);}
+
+  .text{
+    margin: 20px 0 0 100px;
+  }
+
+  .bg{
+    margin: 170px 400px 0 0;
+    width: 100%;
+    height: 300px;
+    background-image:url('https://media.istockphoto.com/id/1276645382/ru/фото/шоколадный-ассортимент-фон-вид-сверху-различных-видов-шоколада.jpg?s=612x612&w=0&k=20&c=QuyBQNZcEfQHeG3LJhtzVS-kLrr-oTKsi2hu8ILtc9s=');
+  }
+
+  .text2{
+    position: absolute;
+    margin: 150px 0 0 540px;
+    color: rgb(216, 209, 202);
+    font-size: large;
+    
+  }
+
+  .text3{
+    position: absolute;
+    margin: 20px 0 0 0;
+    color: rgb(216, 209, 202);
+    font-size: larger;
+    
+  }
+
+  .text2 a:hover{
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: 0.6s;
+    color: rgb(255, 255, 255);
+  }
+
+  .textecs img{
+    margin-left: 100px;
+  }
+
+  .t{
+    margin-left: 250px;
+  }
+
+  .textmaster img{
+margin-left: 230PX;
+  }
+
+  .ipresident{
+    float: left;
+  }
+
+  .tpresident{
+    margin-top: 60px;
+    float: right;
+  }
+
+
+
+
+  .all{
+    width: 100%;
+  }
+
+  .tepresident{
+    margin-bottom: 40px;
+    float: right;
+  }
+  
+
+  .gridnew{
+    margin: 30px 0 40px 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 50px;
+  }
+
+  .newt{
+    margin: 10px  0 0 80px;
+  }
+
+  @media (max-width:500px) {
+
+ .mainfooter{
+    margin-bottom: 350px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+ }
+
+   .black{
+    display: flex;
+    flex-direction: column;
+   }
+    
+   .tt{
+    margin-left: 180px;
+   }
+   .insta{
+    margin-left: 180px;
+   }
+
+   .help{
+    margin-right: 183px;
+   }
+
+   .help2{
+    margin-right: 170px;
+   }
+   
+
+  .tema1{
+   margin-left:  145px;
+  }
+    .master{
+      margin:10px 0 0 70px;
+    }
+
+    .logo{
+      margin-left: 150px;
+    }
+
+
+    .nav{
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brendi{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      margin-left: 80px;
+    }
+
+    .tovar{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-left: 82px;
+    }
+
+    .one {
+ margin-left: 30px;
+    }
+
+    .a img{
+      animation: a 3s ease-in-out infinite;
+      transition: 3s;
+    }
+  
+    @keyframes a {
+      0%{width: 250px;}
+      50%{width: 270px; border: 3px solid red;}
+      100%{width: 250px;}
+    }
+  
+    .b img{
+      animation: b 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes b {
+      0%{width: 250px;}
+      50%{width: 270px; border: 3px solid red;}
+      100%{width: 250px;}
+    }
+  
+    .c img{
+      animation: c 3s ease-in-out infinite;
+      transition: 3s;
+    }
+    
+    @keyframes c {
+      0%{width: 250px;}
+      50%{width: 270px;border: 3px solid red;}
+      100%{width: 250px;}
+    }
+  
+    .d img{
+      animation: d 1.5s ease-in-out infinite;
+      transition: 3s;
+    }
+    
+    @keyframes d {
+      0%{width: 250px;}
+      50%{width: 270px;border: 3px solid red;}
+      100%{width: 250px;}
+    }
+
+    .brendi{
+      margin-top: 17px;
+    }
+
+    .brend{
+      margin-left: 30px;
+      margin-top: 790px;
+    }
+    .bren{
+      margin-left: 68px;
+      display: flex;
+      justify-content: left;
+    }
+
+
+    .mainfooter{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer{
+     display: flex;
+     height:800px;
+    }
+    .form2{
+     margin: auto;
+       
+     }
+   
+  }
+
+  .bren{
+    display: flex;
+    justify-content: left;
+  }
+  .a{
+    display: inline-block;
+    margin-left: 15px;
+    width: 270px;
+    height: 270px;
+  }
+
+  .b{
+    display: inline-block;
+    margin-left: 15px;
+    width: 270px;
+    height: 260px;
+  }
+
+  .c{
+    display: inline-block;
+    margin-left: 15px;
+    width: 270px;
+    height: 260px;
+  }
+
+  .d{
+    display: inline-block;
+    margin-left: 15px;
+    width: 270px;
+    height: 260px;
+  }
+
+  .one{
+    height: 280px;
+  }
+
+  .a img{
+    animation: a 3s ease-in-out infinite;
+    transition: 3s;
+  }
+
+  @keyframes a {
+    0%{width: 250px;}
+    50%{width: 270px; height: 260px; border: 3px solid red;}
+    100%{width: 250px;}
+  }
+
+  .b img{
+    animation: b 1.5s ease-in-out infinite;
+    transition: 3s;
+  }
+  
+  @keyframes b {
+    0%{width: 250px;}
+    50%{width: 270px; height: 260px;border: 3px solid red;}
+    100%{width: 250px;}
+  }
+
+  .c img{
+    animation: c 3s ease-in-out infinite;
+    transition: 3s;
+  }
+  
+  @keyframes c {
+    0%{width: 250px;}
+    50%{width: 270px; height: 260px;border: 3px solid red;}
+    100%{width: 250px;}
+  }
+
+  .d img{
+    animation: d 1.5s ease-in-out infinite;
+    transition: 3s;
+  }
+  
+  @keyframes d {
+    0%{width: 250px;}
+    50%{width: 270px; height: 260px;border: 3px solid red;}
+    100%{width: 250px;}
+  }
+
+  .help{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+ height: 60px;
+  }
+
+  #h3{
+    color: white;
+    
+  }
+
+  #txt{
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  #txt1{
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  #mybtn{
+    margin-top: 20px;
+    height: 50px;
+    width:  50px;
+    border-radius: 20px;
+    margin-left: 142px;
+  }
+
+  .form2{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+
+  .logo1{
+    margin-left: 135px;
+  }
+
+  .box {
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+  .box option{
+    transition: 1s;
+  }
+
+  .number{
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer{
+  
+    min-width: 1000px;
+    height: 800px;
+    background-color: #c57f24;
+    margin-top: 200px;
+    
+  }
+
+  .mainfooter{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .e{
+    margin-top: 15px;
+  }
+
+  .tbrend{
+    margin-top: 80px;
+  }
+
+
+
+  .tlogo2{
+    color: rgb(77, 73, 73);
+  }
+
+  .tbrendlogo a{
+    color: rgb(56, 55, 55);
+  }
+
+
+  .help2{
+    display: flex;
+    justify-content: end;
+  }
+
+
+  .mainfooter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 5px;
+  }
